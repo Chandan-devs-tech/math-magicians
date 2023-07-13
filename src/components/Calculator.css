@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.input {
+  height: 70px;
+  width: 40%;
+  background: rgb(115, 110, 110);
+  border: transparent;
+  color: #fff;
+  text-align: right;
+  font-size: 30px;
+}
+
+.row {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

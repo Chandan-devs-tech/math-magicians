@@ -1,0 +1,16 @@
+.btn {
+  width: 80px;
+  height: 80px;
+  flex: 1;
+  font-size: 25px;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+
+.zeroBtn {
+  flex: 2;
+}
+
+.orangeColor {
+  background: orange;
+}
