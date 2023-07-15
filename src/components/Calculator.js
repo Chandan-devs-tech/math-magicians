@@ -1,39 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from './Button';
 import './Calculator.css';
+import calculate from '../logic/calculate';
 
 function Calculator() {
+  const [result, setResult] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+  const { total, next, operation } = result;
+  const handleClick = (e) => {
+    const val = e.target.textContent;
+    setResult(calculate(result, val));
+  };
   return (
     <div className="calc">
-      <input type="number" className="input" />
-      <div className="row">
-        <Button text="AC" />
-        <Button text="+/-" />
-        <Button text="%" />
-        <Button text="/" />
+      <div className="input">
+        {next || total || operation || 0}
       </div>
       <div className="row">
-        <Button text="7" />
-        <Button text="8" />
-        <Button text="9" />
-        <Button text="x" />
+        <Button text="AC" handleClick={handleClick} />
+        <Button text="+/-" handleClick={handleClick} />
+        <Button text="%" handleClick={handleClick} />
+        <Button text="÷" handleClick={handleClick} />
       </div>
       <div className="row">
-        <Button text="4" />
-        <Button text="5" />
-        <Button text="6" />
-        <Button text="-" />
+        <Button text="7" handleClick={handleClick} />
+        <Button text="8" handleClick={handleClick} />
+        <Button text="9" handleClick={handleClick} />
+        <Button text="x" handleClick={handleClick} />
       </div>
       <div className="row">
-        <Button text="1" />
-        <Button text="2" />
-        <Button text="3" />
-        <Button text="+" />
+        <Button text="4" handleClick={handleClick} />
+        <Button text="5" handleClick={handleClick} />
+        <Button text="6" handleClick={handleClick} />
+        <Button text="-" handleClick={handleClick} />
       </div>
       <div className="row">
-        <Button text="0" />
-        <Button text="." />
-        <Button text="=" />
+        <Button text="1" handleClick={handleClick} />
+        <Button text="2" handleClick={handleClick} />
+        <Button text="3" handleClick={handleClick} />
+        <Button text="+" handleClick={handleClick} />
+      </div>
+      <div className="row">
+        <Button text="0" handleClick={handleClick} />
+        <Button text="." handleClick={handleClick} />
+        <Button text="=" handleClick={handleClick} />
       </div>
     </div>
   );

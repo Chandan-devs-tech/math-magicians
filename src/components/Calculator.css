@@ -19,7 +19,11 @@
   border: transparent;
   color: #fff;
   text-align: right;
-  font-size: 30px;
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
 }
 
 .row {
