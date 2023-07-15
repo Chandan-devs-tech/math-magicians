@@ -17,7 +17,7 @@ function Calculator() {
   return (
     <div className="calc">
       <div className="input">
-        {total || next || operation || 0}
+        {next || total || operation || 0}
       </div>
       <div className="row">
         <Button text="AC" handleClick={handleClick} />
