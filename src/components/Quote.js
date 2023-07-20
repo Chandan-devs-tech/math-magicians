@@ -12,13 +12,15 @@ function Quotes() {
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=happiness',
+        const res = await fetch(
+          'https://api.api-ninjas.com/v1/quotes?category=happiness',
           {
             headers: {
               'X-Api-Key': 'ddtxRwCo6iOYlQaeEAp0uQ==ZzbDNPBF576xtidV',
             },
             contentType: 'application/json',
-          });
+          },
+        );
         const json = await res.json();
         setData(json[0]);
       } catch (error) {
@@ -48,12 +50,13 @@ function Quotes() {
   }
 
   return (
-    <div className="quoteContainer">
-      {
-          data.quote
-        }
-      <p>{data.author}</p>
-    </div>
+    <>
+      <div className="double-quotes">&ldquo;</div>
+      <div className="quoteContainer">
+        {data.quote}
+        <p>{data.author}</p>
+      </div>
+    </>
   );
 }
 
