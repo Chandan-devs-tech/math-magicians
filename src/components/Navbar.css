@@ -1,0 +1,29 @@
+.navbar {
+    background: #ffa500;
+    width: 100%;
+    height: 75px;
+    gap: 280px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;  
+    color: #000;  
+}
+
+.navbarHeading {
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.navitem {
+    text-decoration: none;
+    padding: 8px 35px;
+    color: #000;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.bordered {
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+}
