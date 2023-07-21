@@ -10,7 +10,7 @@ const Home = () => (
       to calculators! Mathematics, an age-old discipline, serves as the language
       of the universe, allowing us to understand and describe patterns,
       quantities, and relationships that govern our world. At our website, we
-      are passionate about making the fascinating world of Mathematics
+      are passionate about making the fascinating world of Mathematic
       accessible to all. From the fundamental concepts of arithmetic to the
       intricacies of advanced calculus, we offer a plethora of resources for
       both beginners and seasoned mathematicians. Whether you are a student
