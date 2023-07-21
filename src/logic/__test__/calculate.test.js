@@ -1,5 +1,6 @@
 // Import the 'calculate' function from a utility module
 import calculate from '../calculate';
+
 describe('The calculate function', () => {
   test('should handle the AC (All Clear) button correctly', () => {
     const initialState = { total: '20', next: '3', operation: '-' };

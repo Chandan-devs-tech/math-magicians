@@ -1,4 +1,5 @@
 import operate from '../operate';
+
 describe('Operate Function', () => {
   test('should perform addition correctly', () => {
     const result = operate(15, 9, '+');
