@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import '../styles/Home.css';
 
 const Home = () => (
   <div className="homeContainer">
@@ -19,7 +19,7 @@ const Home = () => (
       you&apos;ll find an abundance of captivating content to quench your thirst
       for knowledge.
     </p>
-    <p className="homePara">
+    <p className="homePara homePara1">
       Authoritatively reconceptualize value-added niches through out-of-the-box
       deliverables. Distinctively productize state of the art strategic theme
       areas for future-proof benefits. Appropriately brand team building metrics

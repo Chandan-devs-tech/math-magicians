@@ -24,6 +24,9 @@
   font-weight: 700;
   margin: 30px 0;
   gap: 35px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 15px 40px;
 }
 
 .loadingImg {
@@ -39,6 +42,14 @@
 
 .double-quotes {
   font-size: 196px;
-  font-family: 'Times New Roman', Times, serif;
-  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .quoteContainer {
+    width: 100%;
+    padding: 50px 40px;
+    gap: 0;
+  }
 }
