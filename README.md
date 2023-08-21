@@ -14,6 +14,7 @@
 - [📖 \[Math Magicians\] ](#-math-magicians-)
   - [🛠 Built With ](#-built-with-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [� Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -49,6 +50,12 @@ React
 - [It is a Single Page App]
 - [Allows users to make simple calculations]
 - [Allow users to read a random math-related quote]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://math-magicians-deploy-xitw.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
