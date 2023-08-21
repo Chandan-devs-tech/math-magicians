@@ -1,0 +1,30 @@
+.homeHeading {
+  padding: 25px 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.homePara {
+  padding: 25px 50px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .homePara1 {
+    display: none;
+  }
+
+  .homeHeading {
+    padding: 25px 35px;
+  }
+
+  .homePara {
+    padding: 25px 25px;
+    text-align: left;
+  }
+}

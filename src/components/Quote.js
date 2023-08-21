@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './Quote.css';
-import sad from './sad.jpg';
-import loading from './loading-gif.webp';
+import sad from '../assets/sad.jpg';
+import loading from '../assets/loading-gif.webp';
+import '../styles/Quote.css';
 
 function Quotes() {
   const [data, setData] = useState([{ quote: '', author: '', category: '' }]);
@@ -50,13 +50,11 @@ function Quotes() {
   }
 
   return (
-    <>
+    <div className="quoteContainer">
       <div className="double-quotes">&ldquo;</div>
-      <div className="quoteContainer">
-        {data.quote}
-        <p>{data.author}</p>
-      </div>
-    </>
+      {data.quote}
+      <p>{data.author}</p>
+    </div>
   );
 }
 

@@ -18,6 +18,7 @@
   padding: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
+  color: #fff;
 }
 
 .input {
@@ -42,8 +43,25 @@
 }
 
 @media screen and (max-width: 768px) {
-  .input,
+  .calcText {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .calc {
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  .input {
+    width: 100%;
+  }
+
   .row {
-    width: 90%;
+    width: 100%;
   }
 }

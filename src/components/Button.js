@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Button.css';
+import '../styles/Button.css';
 
 function Button({ text, handleClick }) {
   const btnClass = text === '0' ? 'zeroBtn btn' : 'btn';
