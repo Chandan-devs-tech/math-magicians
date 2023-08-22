@@ -52,4 +52,8 @@
     padding: 50px 40px;
     gap: 0;
   }
+
+  .author-name {
+    margin-top: 15px;
+  }
 }

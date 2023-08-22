@@ -53,7 +53,7 @@ function Quotes() {
     <div className="quoteContainer">
       <div className="double-quotes">&ldquo;</div>
       {data.quote}
-      <p>{data.author}</p>
+      <p className="author-name">{data.author}</p>
     </div>
   );
 }
