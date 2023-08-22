@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./src/assets/calculator.svg" alt="Animation" width="150">
+</p>
 <a name="readme-top"></a>
 
 <div align="center">
@@ -15,7 +18,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [� Getting Started ](#-getting-started-)
+  - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
